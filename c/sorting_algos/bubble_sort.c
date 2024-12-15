@@ -20,8 +20,8 @@ void main(){
             numbers[i] = second_num;
             numbers[i+1] = first_num;
             arrayAccessCount+=2;
-            comparaisonCounts += 1;
         }
+        comparaisonCounts += 1;
     }
     maxIterationIndex -= 1;
     }

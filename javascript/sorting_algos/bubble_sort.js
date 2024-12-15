@@ -10,9 +10,10 @@ while(maxIterationIndex > 0){
             numbers[i] = second_num;
             numbers[i+1] = first_num;
             arrayAccessCount+=2;
-            comparaisonCounts += 1;
         }
+        comparaisonCounts += 1;
     }
     maxIterationIndex -= 1;
 }
+
 console.log(`comparaisons count: ${comparaisonCounts}\narray access count: ${arrayAccessCount}\nnew ordered array: ${numbers}`)
